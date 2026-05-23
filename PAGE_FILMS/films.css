@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.film {
+    height : 600px;
+    width:100%;
+    border-bottom : 5px solid black;
+}
+
+.RECONSTITUCION {
+    display : flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.RECONSTITUCION .description {
+    width: 45%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-content: space-around;
+    border:10px solid pink;
+    transform: translateX(100px);
+}
+
+.RECONSTITUTION .description > * {
+    border: 10px solid green;
+}
+
+.RECONSTITUCION .description .header {
+    display : flex;
+    justify-content: space-between;
+}
+
+.RECONSTITUCION .header p {
+    margin-top:1em;
+}
+
+
+.slider {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    display:flex;
+    align-items:center;
+}
+
+.slider img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.slider button {
+    position: absolute;
+    width : 30px;
+    height : 50px;
+    background: rgba(0, 0, 0, 0);
+    color : white;
+    font-size: 20px;
+    border : none;
+}
+
+.slider button:hover {
+        background: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+}
+
+.prevbutton {
+    left : 15px;
+}
+
+.nextbutton {
+    right : 15px;
+}
