@@ -23,6 +23,7 @@ function prv_img(event, imgs) {
     img.src=imgs[i];
 }
 
+
 reconstitucion_imgs=[
     "RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION1.png",
     "RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION2.png",
