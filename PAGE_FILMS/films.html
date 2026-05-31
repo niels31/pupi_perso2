@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="films.css">
+    <link rel="stylesheet" href="../img_slider/carroussel.css">
+
 </head>
 <body>
     <div class="film RECONSTITUCION">
@@ -42,13 +44,18 @@
 
         </div>
 
-        <div class="slider">
-            <button class="prevbutton">&#10094</button>
-            <button class="nextbutton">&#10095</button>
-            <img src="RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION1.png" alt="">
+        <div class="carroussel">
+            <button class="left">&#10094</button>
+            <button class="right">&#10095</button>
+            <div class="track">
+                <div class="slide"><img src="RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION1.png" alt=""></div>
+                <div class="slide"><img src="RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION2.png" alt=""></div>
+                <div class="slide"><img src="RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION3.png" alt=""></div>
+                <div class="slide"><img src="RECONSTITUCION/PHOTOGRAMMES/RECONSTITUCION4.png" alt=""></div>
+            </div>
         </div>
     </div>
 
-<script src="films.js"></script>
+<script src="../img_slider/carroussel.js"></script>
 </body>
 </html>

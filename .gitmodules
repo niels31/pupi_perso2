@@ -1,0 +1,3 @@
+[submodule "img_slider"]
+	path = img_slider
+	url = https://www.github.com/niels31/img_slider
