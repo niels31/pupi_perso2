@@ -1,3 +1,7 @@
+body {
+    padding: 20px;
+}
+
 *{
     margin:0;
     padding:0;
@@ -15,24 +19,14 @@
     gap : 70px;
 }
 
-.RECONSTITUCION .description {
-    align-self:stretch;
-    flex: 0 0 600px;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    transform: translateX(100px);
+.description{
+    flex: 0 1 600px;
+    display: flex;
+    flex-wrap:wrap;
+    gap:30px;
 }
 
-.RECONSTITUTION .description > * {
-    border: 10px solid green;
-}
-
-.RECONSTITUCION .description .header {
-    display : flex;
-    justify-content: space-between;
-}
-
-.RECONSTITUCION .header p {
-    margin-top:1em;
+.description > div{
+    flex: 1 1 0;
+    min-width: 200px;
 }
