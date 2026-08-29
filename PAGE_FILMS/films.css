@@ -3,6 +3,12 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+@media (max-width:500px) {
+    body {
+        padding: 0px;
+    }
+}
+
 *{
     margin:0;
     padding:0;
