@@ -1,0 +1,36 @@
+body {
+    padding: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:20px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.layout {
+    height:100%;
+    widht:100%
+}
+
+.bio {
+    text-align:justify;
+}
+
+@media (min-width: 800px) {
+    .bio {
+        position:relative;
+        top:10vh;
+        left:10vw;
+        width:50%;
+    }
+
+}
+
+.bio a {
+    text-decoration: none;
+    font-weight: 501;
+    color: darkblue;
+}
