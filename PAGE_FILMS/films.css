@@ -11,6 +11,7 @@ body {
 
 .vimeo {
     width: 100%;
+    background-color: black;
 }
 
 .vimeo iframe {
