@@ -1,7 +1,6 @@
 body {
     padding: 20px;
     font-family: Helvetica, Arial, sans-serif;
-    font-size:20px;
 }
 
 *{
@@ -12,19 +11,20 @@ body {
 
 .layout {
     height:100%;
-    widht:100%
+    width:100%;
 }
 
 .bio {
     text-align:justify;
+    font-size:15px;
 }
 
 @media (min-width: 800px) {
     .bio {
         position:relative;
         top:10vh;
-        left:10vw;
-        width:50%;
+        left:10%;
+        width:40%;
     }
 
 }
