@@ -27,7 +27,7 @@ body {
     display : flex;
     flex-wrap:wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     gap:10px;
 }
 
@@ -51,6 +51,7 @@ body {
     flex-wrap:wrap;
     gap:20px;
     font-size:15px; 
+    align-items: start;
 }
 
 .description > div{
